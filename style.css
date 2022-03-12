@@ -1,7 +1,7 @@
 body {
-  background-color: slategrey;
-  color: white;
-  margin: 35px;
+    background-color: slategrey;
+    color: white;
+    margin: 35px;
 }
 h1 {
   font-family: verdana, arial, sans-serif;
@@ -20,6 +20,11 @@ button {
 }
 #button1 {
   background-color: lightgreen;
+}
+img {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
 }
 #button1:active, #button1.lit {
   background-color: green;
@@ -53,4 +58,7 @@ button {
 }
 #button6:active, #button6.lit {
   background-color: indigo;
+}
+#timer {
+   text-align: right;
 }
