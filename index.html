@@ -15,14 +15,23 @@
     </p>
     <button id="startBtn" onclick="startGame()">Start</button>
     <button id="stopBtn" onclick="stopGame()" class = "hidden">Stop</button>
+
+    <div class="hidden" id="timer"></div>
     
     <div id="gameButtonArea">
-      <button id="button1" onclick = "guess(1)" onmousedown = "startTone(1)" onmouseup = "stopTone()"></button>
-      <button id="button2" onclick = "guess(2)" onmousedown = "startTone(2)" onmouseup = "stopTone()"></button>
-      <button id="button3" onclick = "guess(3)" onmousedown = "startTone(3)" onmouseup = "stopTone()"></button>
-      <button id="button4" onclick = "guess(4)" onmousedown = "startTone(4)" onmouseup = "stopTone()"></button>
-      <button id="button5" onclick = "guess(5)" onmousedown = "startTone(5)" onmouseup = "stopTone()"></button>
-      <button id="button6" onclick = "guess(6)" onmousedown = "startTone(6)" onmouseup = "stopTone()"></button>
+      <audio src = "audioFiles/mixkit-domestic-cat-hungry-meow-45.wav" id = "audio1"></audio>
+      <audio src = "audioFiles/Z5QVAKY-dog.mp3" id = "audio2"></audio>
+      <audio src = "audioFiles/mixkit-wild-lion-animal-roar-6.wav" id = "audio3"></audio>
+      <audio src = "audioFiles/M895WP3-cartoon-giraffe-voice.mp3" id = "audio4"></audio>
+      <audio src = "audioFiles/57GY2SQ-elephant-trumpeting.mp3" id = "audio5"></audio>
+      <audio src = "audioFiles/CA2NDKF-chattering-monkey.mp3" id = "audio6"></audio>
+      
+      <button id="button1" onclick = "guess(1)" onmousedown="startAudio(1)" onmouseup="stopTone()"><img src = "https://cdn.glitch.global/990fec1b-cfaa-4e47-8044-e29c932ace6f/thumbnails%2Fgarfield.png?1647101199682" alt = "Garfield"></button>
+      <button id="button2" onclick = "guess(2)" onmousedown="startAudio(2)" onmouseup="stopTone()"><img src = "https://kb.rspca.org.au/wp-content/uploads/2018/11/golder-retriever-puppy.jpeg" alt = "Puppy"></button>
+      <button id="button3" onclick = "guess(3)" onmousedown="startAudio(3)" onmouseup="stopTone()"><img src = "https://www.kindpng.com/picc/m/101-1014236_lion-cartoon-illustration-lion-clip-art-hd-png.png" alt = "Lion"></button>
+      <button id="button4" onclick = "guess(4)" onmousedown="startAudio(4)" onmouseup="stopTone()"><img src = "https://cdn5.vectorstock.com/i/1000x1000/36/34/cute-giraffe-cartoon-vector-7353634.jpg" alt = "Giraffe"></button>
+      <button id="button5" onclick = "guess(5)" onmousedown="startAudio(5)" onmouseup="stopTone()"><img src = "https://st.depositphotos.com/1967477/4224/v/950/depositphotos_42240485-stock-illustration-cute-elephant-cartoon.jpg" alt = "Elephant"></button>
+      <button id="button6" onclick = "guess(6)" onmousedown="startAudio(6)" onmouseup="stopTone()"><img src = "https://c8.alamy.com/zooms/9/0add81bb0d7a480aa6c17b99e34a18b0/2dbwdf2.jpg" alt = "Monkey"></button>
     </div>
   </body>
 </html>
