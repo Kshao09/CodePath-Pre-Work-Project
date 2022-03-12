@@ -4,9 +4,9 @@
 
 Submitted by: Kenny Shao
 
-Time spent: 5 hours spent in total
+Time spent: 35 hours spent in total
 
-Link to project: https://glitch.com/edit/#!/storm-rigorous-challenge?path=index.html%3A25%3A102
+Link to project: https://glitch.com/edit/#!/storm-rigorous-challenge?path=script.js%3A101%3A36
 
 ## Required Functionality
 
@@ -26,38 +26,38 @@ The following **optional** features are implemented:
 * [x] Buttons use a pitch (frequency) other than the ones in the tutorial
 * [x] More than 4 functional game buttons
 * [x] Playback speeds up on each turn
-* [ ] Computer picks a different pattern each time the game is played
+* [x] Computer picks a different pattern each time the game is played
 * [x] Player only loses after 3 mistakes (instead of on the first mistake)
-* [ ] Game button appearance change goes beyond color (e.g. add an image)
-* [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
-* [ ] User has a limited amount of time to enter their guess on each turn
+* [x] Game button appearance change goes beyond color (e.g. add an image)
+* [x] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
+* [x] User has a limited amount of time to enter their guess on each turn
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app!
+- [x] I made the buttons and audio animal themes and sounds
 
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 
-http://g.recordit.co/CNRnVwO0ot.gif
+http://g.recordit.co/b59m7uVtHr.gif
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.
 
-I used w3schools.com, geeksforgeeks.org, and tutorialspoint.com for reference to help complete my project. 
+I used w3schools.com, geeksforgeeks.org, and tutorialspoint.com for reference to help complete my project. I also watched youtube videos on javascript tutorials in order to understand the syntax and best practices for javascript.  
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 
-One challenge in creating this project is learning and understanding the basics of JavaScript. At the beginning of this project, I was unfamiliar with JavaScript syntax and how to create objects and functions such as callback functions and arrow functions. I used external resources such as w3schools.net and geeksforgeeks.org for guidance, in order to understand the code and be able to adjust it to accomplish the extra points. As I learned about the hoisting concept and object-oriented programming with JavaScript, I was able to better understand the tasks that were given to me. I learned the differences in scope for var and let, and the differences in using arrow functions and normal function declarations. I also learned the basics of jQuery, which helps improve and simplify JavaScript functions and methods by utilizing certain methods and syntax from the jQuery API documentation. For the extra points, I needed to solve how to give the user three strikes and make a new counter in order to keep track of the user choices and his/her mistakes. By learning how to create a new global variable and function, I was able to solve the problem and be able to record the choices that the user made and alert the user by passing the lose game function when the user makes 3 errors.  
+One challenge in creating this project is learning and understanding the overall flow of JavaScript. At the beginning of this project, I was unfamiliar with JavaScript syntax and how to create objects and functions such as callback functions and arrow functions. I used external resources such as w3schools.net and geeksforgeeks.org for guidance, in order to understand the code and be able to adjust it to accomplish the extra points. As I learned about the hoisting concept and object-oriented programming with JavaScript, I was able to better understand the tasks that were given to me. I learned the differences in scope for var and let, and the differences in using arrow functions and normal function declarations. I also learned the basics of jQuery, which helps improve and simplify JavaScript functions and methods by utilizing certain methods and syntax from the jQuery API documentation. For the extra points, I needed to solve how to give the user three strikes and make a new counter in order to keep track of the user choices and his/her mistakes. By learning how to create a new global variable and function, I was able to solve the problem and be able to record the choices that the user made and alert the user by passing the lose game function when the user makes 3 errors. After hours of researching and scavengin through StackOverFlow and watching videos on how to incorporate a timer, I was able to set the intervals and create a countdown timer for each round.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 
-Some questions that I have about web development are how to grab data from a database and link it to the web using dynamic programming, understand what network sockets are and how to connect it to the server. Also, how can I optimize website’s loading time and various user inputs at the same time, like the concept of multithreading. Furthermore, I wish to learn more about object-oriented design and be able to create more complex websites that incorporate databases and dynamically update information to the user from the backend server. By understanding the concepts of JavaScript with the help of jQuery and AJAX, I can better improve my website projects.  
+Some questions that I have about web development are how to grab data from a database and link it to the web using dynamic programming, understand what network sockets are and how to connect it to the server. Also, how can I optimize website’s loading time and various user inputs at the same time, like the concept of multithreading. Furthermore, I wish to learn more about object-oriented design and be able to create more complex websites that incorporate databases and dynamically update information to the user from the backend server. By understanding the concepts of JavaScript with the help of jQuery, I can better improve my website projects. Since I also have a huge passion for Game Development, I also want to learn how to use front-end technology and frameworks like React and Angular to make game controls and 2D/3D animations.
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 
-If I had more time to optimize my code, I would choose to incorporate the clock to notify the user as to how much time is remaining before the round ends. I would need to create a new function in JavaScript that creates a new clock and style it using CSS properties. I would choose to refactor and improve the various functions such as clue Sequence method and win/lose methods. By changing the pattern to randomization, I would be able to randomize the sequence of squares that will be played and be able to customize the squares with images and change the audio with some music. 
+If I had more time to optimize my code, I would choose to incorporate an animated clock to notify the user as to how much time is remaining before the round ends. I would need to create a new function in JavaScript that creates a countdown timer and style it using CSS properties. By using a I would choose to refactor and improve the various functions such as clue Sequence method and win/lose methods. By changing the pattern to randomization, I was able to randomize the sequence of squares that will be played and be able to customize the squares with images and change the audio with some music. I also found various zoo animal sound clips in order to make it animal themed and appealing to the user.
 
 ## Interview Recording URL Link
 
